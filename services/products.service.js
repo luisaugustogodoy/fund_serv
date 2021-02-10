@@ -31,8 +31,10 @@ module.exports = {
 		fields: [
 			"_id",
 			"Papel",
-			"Cotao",
-			"P/L"
+			"Cotacao",
+			"PL",
+			"PVP",
+			"PSR"
 		],
 
 		// Validator for the `create` & `insert` actions.
